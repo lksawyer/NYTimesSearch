@@ -23,7 +23,7 @@
     }
 
     .ajax({
-      url: url,
+      url: queryURL,
       method: 'GET',
     }).done(function(nydata) {
       console.log(result);
@@ -31,7 +31,7 @@
       throw err;
     });
 
-
+    
 
   });
 
