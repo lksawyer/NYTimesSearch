@@ -1,0 +1,20 @@
+body {
+	color: white;
+}
+
+p, select, button {
+	color: black;
+}
+
+input, select {
+	width: 100%;
+	padding: 10px 5px;
+}
+
+.jumbotron {
+	background-color: rgb(33,50,89);
+}
+
+/*.panel-title {
+	background-color: rgb(33,50,89);
+}*/
