@@ -31,6 +31,14 @@
       throw err;
     });
 
+        // Log the queryURL
+        console.log(queryURL);
+
+        // Log the resulting object
+        console.log(nydata);
+        console.log(nydata.response.headline.main);
+
+        // var headline = nydata.response.headline.main;
     
 
   });
